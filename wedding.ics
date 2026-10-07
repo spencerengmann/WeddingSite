@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spencer and Nana Yaa//Wedding//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:spencer-nana-yaa-20261128@wedding
+DTSTAMP:20261001T012537Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Spencer & Nana Yaa’s Wedding
+LOCATION:Magnolia Event Center\, South Jordan\, Utah
+DESCRIPTION:Join us for our wedding. Full itinerary and arrival details wil
+ l be shared on our website.
+URL:https://spencer-and-nana-yaa-save-the-date.acesnypa.chatgpt.site/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
