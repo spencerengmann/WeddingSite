@@ -24,6 +24,48 @@
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
   </head>
+  <style>
+    a[href*="amazon.com/wedding/guest-view/1ZWAOFTRN9JO7"] {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      box-sizing: border-box;
+      padding: 0.85rem 1.8rem;
+      border: 1px solid #a5793c;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #fff0d1, #e8c58c);
+      color: #392516;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgb(102 67 28 / 22%);
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      a[href*="amazon.com/wedding/guest-view/1ZWAOFTRN9JO7"] {
+        animation: registry-glow 2.8s ease-out infinite;
+      }
+    }
+
+    @keyframes registry-glow {
+      0%,
+      30% {
+        box-shadow:
+          0 4px 14px rgb(102 67 28 / 22%),
+          0 0 0 0 rgb(191 143 72 / 48%);
+      }
+      100% {
+        box-shadow:
+          0 4px 14px rgb(102 67 28 / 22%),
+          0 0 0 12px rgb(191 143 72 / 0%);
+      }
+    }
+
+    a[href*="amazon.com/wedding/guest-view/1ZWAOFTRN9JO7"]:focus-visible {
+      outline: 3px solid #69451f;
+      outline-offset: 4px;
+    }
+  </style>
   <body>
     <div id="cover" class="cover">
       <div class="cover-heading">
@@ -154,22 +196,23 @@
                   </div>
                 </article>
                 <article>
-                  <time>2:00 PM</time>
+                  <time datetime="13:15">1:15 PM</time>
                   <div>
-                    <h4>Temple sealing</h4>
-                    <p>Taylorsville Utah Temple · Arrive by 1:45 PM</p>
-                    <small
-                      >The sealing is for invited guests with a current temple
-                      recommend. Everyone is welcome to join us for photos
-                      outside afterward.</small
-                    >
+                    <h4>Ring Ceremony</h4>
+                    <p>Magnolia Event Center · Arrive by 12:45 PM</p>
                   </div>
                 </article>
+
                 <article>
-                  <time>4:30 PM</time>
+                  <time datetime="15:30">3:30 PM</time>
                   <div>
-                    <h4>Ring ceremony</h4>
-                    <p>Magnolia Event Center · Arrive by 4:15 PM</p>
+                    <h4>Temple Sealing</h4>
+                    <p>Taylorsville Temple · Arrive by 2:45 PM</p>
+                    <small>
+                      The sealing is for invited guests with a current temple
+                      recommend. Everyone is welcome to join us for photos
+                      outside afterward.
+                    </small>
                   </div>
                 </article>
                 <article>
